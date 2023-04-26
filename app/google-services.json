@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "392830030232",
+    "project_id": "aplicativo-buscow",
+    "storage_bucket": "aplicativo-buscow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392830030232:android:c8fbbf853110199796dbed",
+        "android_client_info": {
+          "package_name": "com.example.aplicativobuscow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392830030232-5cio6cksfhe107evg4osoe9mm3g03ghs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3UQFvFRFC-YzOtJZ1o1GjfQ0k2-GwV_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392830030232-5cio6cksfhe107evg4osoe9mm3g03ghs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
