@@ -48,12 +48,13 @@
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"/>
 
-    <EditText
+    <com.santalu.maskara.widget.MaskEditText
         android:id="@+id/Edit_Tel"
         style="@style/Edit_Text"
         android:hint="Número de telefone"
         android:inputType="number"
-        android:maxLength="11"
+        app:mask="+55 (__) _____-____"
+        app:maskCharacter="_"
         android:drawableRight="@drawable/ic_cell"
         app:layout_constraintTop_toBottomOf="@id/Edit_Date"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
@@ -82,6 +83,7 @@
         app:layout_constraintEnd_toEndOf="@id/containerComponents"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCad"
         style="@style/Button"
         android:text="Cadastrar"
         android:layout_margin="30dp"
