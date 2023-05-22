@@ -44,4 +44,5 @@ dependencies {
 
     //Maskara - https://github.com/santalu/maskara
     implementation 'com.github.santalu:maskara:1.0.0'
+
 }
