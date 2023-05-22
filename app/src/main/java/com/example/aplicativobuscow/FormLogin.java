@@ -31,6 +31,7 @@ public class FormLogin extends AppCompatActivity {
         edit_senha = findViewById(R.id.edit_senha);
         checkBoxSenha = findViewById(R.id.checkBoxSenha);
 
+        //Adicionando CheckBox para ocultar e mostrar Senha
         checkBoxSenha.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
