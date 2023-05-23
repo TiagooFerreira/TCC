@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_user"
+            android:title="Ver perfil"/>
+
+        <item
+            android:id="@+id/nav_cad"
+            android:icon="@drawable/ic_add"
+            android:title="Cadastrar Animal"/>
+
+        <item
+            android:id="@+id/nav_anuncios"
+            android:icon="@drawable/ic_announce"
+            android:title="Seus anúncios"/>
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item android:id="@+id/nav_sair"
+                android:icon="@drawable/ic_nav_logout"
+                android:title="Sair"/>
+        </menu>
+
+    </item>
+</menu>
