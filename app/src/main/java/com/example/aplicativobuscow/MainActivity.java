@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 
             case R.id.nav_sair:
                 Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
-                //Configurar para sair
+
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
