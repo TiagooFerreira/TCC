@@ -3,4 +3,6 @@
     <string name="entrar">Entrar</string>
     <string name="text_cadastro">Crie uma conta clicando aqui</string>
     <string name="title_cadastro">Cadastre-se</string>
+    <string name="open_nav">Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
 </resources>
